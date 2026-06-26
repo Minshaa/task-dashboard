@@ -208,9 +208,9 @@ Bachelor of Science in Computer Science
 
 MERN Stack Developer
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/Minshaa
 
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+LinkedIn: https://linkedin.com/in/aysha-minsha-p
 
 ---
 
