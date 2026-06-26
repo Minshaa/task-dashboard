@@ -65,6 +65,14 @@ task-dashboard/
 │
 ├── public/
 │
+├── screenshots/
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── add-task.png
+│   ├── search.png
+│   ├── filter.png
+│   └── status.png
+│
 └── README.md
 ```
 
