@@ -1,36 +1,221 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📋 Task Dashboard
 
-## Getting Started
+A modern Task Management Dashboard built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
-First, run the development server:
+This application allows users to log in, manage tasks, search, filter, sort, edit, delete, and update task status. All task data is stored in the browser using **Local Storage**, so data persists even after refreshing the page.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://task-dashboard-smoky-delta.vercel.app/
+
+---
+
+## 🚀 Features
+
+- 🔐 Simple Login Authentication
+- ➕ Add New Tasks
+- ✏️ Edit Existing Tasks
+- ❌ Delete Tasks
+- 🔄 Change Task Status
+- 🔍 Search Tasks by Title
+- 🎯 Filter Tasks by Status
+- 📅 Sort Tasks by Due Date
+- 💾 Local Storage Persistence
+- 📱 Responsive Design
+- 🎨 Color-coded Task Status
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Local Storage
+
+---
+
+## 📂 Project Structure
+
+```
+task-dashboard/
+│
+├── app/
+│   ├── dashboard/
+│   ├── login/
+│   └── page.tsx
+│
+├── components/
+│   ├── TaskDialog.tsx
+│   ├── TaskTable.tsx
+│   └── ui/
+│
+├── data/
+│   └── task.ts
+│
+├── types/
+│   └── task.ts
+│
+├── lib/
+│   └── utils.ts
+│
+├── public/
+│
+└── README.md
+```
+
+---
+
+## 📸 Screenshots
+
+### Login Page
+
+<img src="./screenshots/login.png" width="800">
+
+---
+
+### Dashboard
+
+<img src="./screenshots/dashboard.png" width="800">
+
+---
+
+### Add Task Dialog
+
+<img src="./screenshots/add-task.png" width="800">
+
+---
+
+### Search Tasks
+
+<img src="./screenshots/search.png" width="800">
+
+---
+
+### Filter Tasks
+
+<img src="./screenshots/filter.png" width="800">
+
+---
+
+### Status Update
+
+<img src="./screenshots/status.png" width="800">
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/task-dashboard.git
+```
+
+Move into the project
+
+```bash
+cd task-dashboard
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Dummy Login
 
-To learn more about Next.js, take a look at the following resources:
+Use any email and password to log in.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Example
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Email
 
-## Deploy on Vercel
+```
+admin@example.com
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Password
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+123456
+```
+
+*(Authentication is simulated using Local Storage.)*
+
+---
+
+## 📋 Task Status
+
+Tasks can have one of the following statuses:
+
+- Todo 🔵
+- In Progress 🟡
+- Completed 🟢
+
+The status can be updated directly from the dashboard.
+
+---
+
+## 💾 Data Storage
+
+This project uses **Local Storage**.
+
+- Login state is stored locally.
+- Tasks remain available after refreshing the browser.
+- Data is cleared only if Local Storage is cleared.
+
+---
+
+## ✨ Future Improvements
+
+- Backend API Integration
+- Database Support (MongoDB)
+- JWT Authentication
+- User Registration
+- Drag & Drop Tasks
+- Dark Mode
+- Pagination
+- Toast Notifications
+- Due Date Reminders
+
+---
+
+## 👩‍💻 Author
+
+**Aysha Minsha**
+
+Bachelor of Science in Computer Science
+
+MERN Stack Developer
+
+GitHub: https://github.com/YOUR_USERNAME
+
+LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+
+---
+
+## 📄 License
+
+This project is developed for learning and portfolio purposes.
+
+MIT License
